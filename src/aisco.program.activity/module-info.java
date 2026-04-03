@@ -1,5 +1,5 @@
 module aisco.program.activity {
-    requires java.logging;
     requires aisco.program.core;
+    requires java.logging;
     exports aisco.program.activity;
 }
