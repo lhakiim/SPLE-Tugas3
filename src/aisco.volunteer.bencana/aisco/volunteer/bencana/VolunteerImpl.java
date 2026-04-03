@@ -23,7 +23,7 @@ public class VolunteerImpl extends VolunteerDecorator {
     public String getTypeOfDisaster()   { return typeOfDisaster; }
     public String getDispatchDate()     { return dispatchDate; }
     public boolean isInsidental()       { return isInsidental; }
-
+    
     @Override
     public String getVolunteer() {
         return record.getVolunteer()

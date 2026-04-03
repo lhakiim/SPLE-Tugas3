@@ -1,0 +1,7 @@
+module aisco.product.palangmerah {
+    requires aisco.program.core;
+    requires aisco.program.activity;
+    requires aisco.financialreport.core;
+    requires aisco.financialreport.income;
+    requires aisco.volunteer.core;
+}
